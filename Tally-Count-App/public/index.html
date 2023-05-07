@@ -26,14 +26,22 @@
       <input id="number" class="counter__value" readonly value="0" />
 
       <div class="counter__actions">
-        <sl-button id="subtract" class="counter__button counter__button_first">
+        <sl-button
+          id="subtract"
+          class="counter__button counter__button_first"
+          variant="success"
+        >
           -
         </sl-button>
-        <sl-button id="add" class="counter__button">+</sl-button>
+        <sl-button id="add" class="counter__button" variant="success"
+          >+</sl-button
+        >
       </div>
     </main>
 
-    <div class="resetButton" id="resetButton"><sl-button>Reset</sl-button></div>
+    <div class="resetButton" id="resetButton">
+      <sl-button variant="warning">Reset</sl-button>
+    </div>
     <footer class="footer">
       <p>
         Inspired by
